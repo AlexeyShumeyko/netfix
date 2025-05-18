@@ -1,4 +1,4 @@
-$exeUrl = "https://raw.githubusercontent.com/AlexeyShumeyko/netfixer/main/build/NetFixer.exe"
+$exeUrl = "https://raw.githubusercontent.com/AlexeyShumeyko/netfix/main/build/NetFixer.exe"
 $targetDir = "$env:LOCALAPPDATA\NetFixer"
 $exePath = "$targetDir\NetFixer.exe"
 
