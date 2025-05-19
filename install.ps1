@@ -1,5 +1,7 @@
-$exeUrl = "https://raw.githubusercontent.com/AlexeyShumeyko/netfix/main/build/NetFixer.exe"
-$targetDir = "$env:LOCALAPPDATA\NetFixer"
+$desktop = [Environment]::GetFolderPath("Desktop")
+$targetDir = "$desktop\NetFixer"
+
+$exeUrl = "https://github.com/AlexeyShumeyko/netfix/releases/download/v1.0/NetFixer.exe"
 $exePath = "$targetDir\NetFixer.exe"
 
 # Создание директории
